@@ -1,0 +1,43 @@
+.wrap{
+    margin: 0 auto;
+    width: 100vw;
+    font-family: "Rubik",serif;
+    .container{
+        margin: 0 auto;
+        width: 100%;
+        .name{
+            width: 80%;
+            margin: 0 auto;
+            font-size: 80px;
+            margin-top: 40px;
+            line-height: 1.2;
+            border-bottom: 1px solid #000;
+        }
+        h2{
+            font-size: 32px;
+            line-height: 1.5;
+            font-family: PingFangSC-Regular, sans-serif;
+            display: flex;
+            align-items: center;
+            border-bottom: 1px solid #000;
+        }
+        span{
+            margin-left: 16px;
+            font-size: 24px;
+            line-height: 1.5;
+            text-transform: uppercase;
+            font-family: SF Pro Text,sans-serif;
+            color:#A00404;
+        }
+        p{
+            font-size: 24px;
+            line-height: 1.5;
+            margin-top: 24px;
+        }
+        .profile-pic{
+            width: 80%;
+            margin: 0 auto;
+            margin-top: 64px;
+        }
+    }
+}

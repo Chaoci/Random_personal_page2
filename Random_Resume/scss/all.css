@@ -1,0 +1,235 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+img {
+  vertical-align: middle;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+html, body {
+  width: 100%;
+  margin: 0 auto;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+.wrap {
+  margin: 0 auto;
+  width: 100vw;
+  font-family: "Rubik", serif;
+}
+.wrap .container {
+  margin: 0 auto;
+  width: 100%;
+}
+.wrap .container .name {
+  width: 80%;
+  margin: 0 auto;
+  font-size: 80px;
+  margin-top: 40px;
+  line-height: 1.2;
+  border-bottom: 1px solid #000;
+}
+.wrap .container h2 {
+  font-size: 32px;
+  line-height: 1.5;
+  font-family: PingFangSC-Regular, sans-serif;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #000;
+}
+.wrap .container span {
+  margin-left: 16px;
+  font-size: 24px;
+  line-height: 1.5;
+  text-transform: uppercase;
+  font-family: SF Pro Text, sans-serif;
+  color: #A00404;
+}
+.wrap .container p {
+  font-size: 24px;
+  line-height: 1.5;
+  margin-top: 24px;
+}
+.wrap .container .profile-pic {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 64px;
+}
+
+.profile-content {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 48px;
+}
+.profile-content #name {
+  margin-top: 16px;
+}
+
+.education {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 74px;
+}
+
+.skill {
+  width: 100%;
+  margin: 0 auto;
+  background: #415165;
+  margin-top: 64px;
+}
+.skill .skill-content {
+  width: 65%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+.skill .skill-content h2 {
+  padding-top: 24px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #fff;
+}
+.skill .skill-content h2 span {
+  color: #fff;
+}
+.skill .skill-content ul {
+  width: 30%;
+  padding-left: 40px;
+  margin-top: 42px;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.skill .skill-content ul li {
+  border-left: 1px solid #fff;
+  padding-left: 20px;
+  font-size: 24px;
+  line-height: 2;
+}
+
+.work-experience {
+  margin: 0 auto;
+  margin-top: 64px;
+  width: 80%;
+}
+.work-experience ul {
+  border-left: 1px solid #000;
+  margin-left: 20px;
+  padding-left: 20px;
+}
+.work-experience ul li {
+  margin-top: 16px;
+  margin-bottom: 24px;
+  font-size: 24px;
+  line-height: 1.5;
+  display: flex;
+  flex-direction: column;
+}
+.work-experience ul li img {
+  width: 100px;
+  height: 100px;
+}
+.work-experience ul li #intro {
+  margin: 0;
+  width: 54%;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.footer {
+  background-color: #415165;
+  margin-top: 80px;
+}
+.footer .contact {
+  width: 65%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+.footer .contact h2 {
+  width: 100%;
+  padding-top: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #fff;
+}
+.footer .contact h2 span {
+  color: #fff;
+}
+.footer .contact ul {
+  padding-left: 24px;
+  margin-top: 16px;
+  display: flex;
+}
+.footer .contact ul img {
+  width: 48px;
+  height: 48px;
+  margin-bottom: 40px;
+  margin-right: 24px;
+}/*# sourceMappingURL=all.css.map */
